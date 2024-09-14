@@ -1,0 +1,13 @@
+{
+  "source":"WORKSPACE",
+  "notebook_path": "/Shared/bissparkautoloader/release/notebooks/Data Ingestion Steps",
+  "pool_name": "bis_autoloaderpool_e8ds_v5_pool",
+  "catalog_name": "businessintelligencesystems_prod",
+  "can_manage_user_group_name": "AzUsers-AADPAG-DBK-BIS-CatalogContributor-Prod,AzUsers-AADPAG-DBK-BIS-WorkspaceContributor-Prod",
+  "can_manage_user_name":"",
+  "can_manage_spn": "",
+  "can_manage_run_user_group_name": "USRS-BusinessIntelligenceSystems",
+  "can_manage_run_user_name":"",
+  "can_manage_run_spn": "",
+  "cluster_name": "AutoLoaderCluster"
+}

@@ -1,0 +1,54 @@
+{
+  "log_table" : {
+    "schema":"autoloader",
+    "table_name":"logs"
+  },
+  "header_table" : {
+    "schema":"autoloader",
+    "table_name":"header_config"
+  },
+  "column_details_table" : {
+    "schema":"autoloader",
+    "table_name":"column_config"
+  },
+  "control_table" : {
+    "schema":"autoloader",
+    "table_name":"process_control"
+  },
+  "header_staging_table" : {
+    "schema":"autoloader_staging",
+    "table_name":"header_config"
+  },
+  "column_details_staging_table" : {
+    "schema":"autoloader_staging",
+    "table_name":"column_config"
+  },
+  "status" : {
+    "schema":"autoloader",
+    "table_name":"status"
+  },
+  "error_description" : {
+    "schema":"autoloader",
+    "table_name":"errors"
+  },
+  "schedule_description":{
+    "schema":"autoloader",
+    "table_name":"schedule"
+  },
+  "other_config":{
+    "schema":"autoloader",
+    "table_name":"other_config"
+  },
+  "job_table":{
+    "schema":"autoloader",
+    "table_name":"job_config"
+  },
+  "job_staging_table":{
+    "schema":"autoloader_staging",
+    "table_name":"job_config"
+  },
+  "log_report_table":{
+    "schema":"autoloader",
+    "table_name":"daily_log_report"
+  }
+}

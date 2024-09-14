@@ -1,0 +1,53 @@
+{
+    "HeaderID": 10,
+    "SourceContainer": "conf.raw",
+    "SourceFilePath": "formatted/genesys/v2/system_presences/parquet/current",
+    "SourceFileFormat": "parquet",
+    "SourceFileHeader": 1,
+    "SourceFileDelimiter": "",
+    "DeltaTableSchema": "contact_centre_transformed",
+    "DeltaTableName": "genesys_system_presences",
+    "IsPII": 0,
+    "PIISchema": "",
+    "PIITableName": "",
+    "OverWriteFlag": 0,
+    "BatchFileCount": 1,
+    "ContinuousRunFlag": 0,
+    "JobConfig": {
+        "Alert": 0,
+        "Emails": "",
+        "CronSyntax": "0 0 3 * * ?",
+        "WarningDuration": 7200,
+        "TimeOut": 21600,
+        "Retries": 3,
+        "ClusterMaxWorkers": 4,
+        "SparkConf": "{}"
+    },
+    "Columns": [
+        {
+            "SourceColumnName": "id",
+            "DeltaColumnName": "id",
+            "DeltaDataType": "string",
+            "ColumnOrder": 0,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "name",
+            "DeltaColumnName": "name",
+            "DeltaDataType": "string",
+            "ColumnOrder": 1,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "Updated_Date",
+            "DeltaColumnName": "Updated_Date",
+            "DeltaDataType": "timestamp",
+            "ColumnOrder": 2,
+            "ZOrder": 0,
+            "IsPII": 0
+        }
+    ],
+    "IsCurrent": 0
+}

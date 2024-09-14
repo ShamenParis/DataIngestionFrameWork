@@ -1,0 +1,269 @@
+{
+  "HeaderID": 2,
+  "SourceContainer": "conf.raw",
+  "SourceFilePath": "formatted/genesys/v2/evaluation_usersearch_data/parquet/current",
+  "SourceFileFormat": "parquet",
+  "SourceFileHeader": 1,
+  "SourceFileDelimiter": "",
+  "DeltaTableSchema": "contact_centre_pii_transformed",
+  "DeltaTableName": "genesys_user_search_data",
+  "IsPII": 0,
+  "PIISchema": "",
+  "PIITableName": "",
+  "OverWriteFlag": 0,
+  "BatchFileCount": 1,
+  "ContinuousRunFlag": 0,
+  "JobConfig": {
+    "Alert": 0,
+    "Emails": "",
+    "CronSyntax": "0 0 3 * * ?",
+    "WarningDuration": 9000,
+    "TimeOut": 21600,
+    "Retries": 3,
+    "ClusterMaxWorkers": 4,
+    "SparkConf": "{}"
+  },
+  "Columns": [
+    {
+      "SourceColumnName": "department",
+      "DeltaColumnName": "department",
+      "DeltaDataType": "string",
+      "ColumnOrder": 0,
+      "ZOrder": 0,
+      "IsPII": 0
+    },
+    {
+      "SourceColumnName": "AgentId",
+      "DeltaColumnName": "AgentId",
+      "DeltaDataType": "string",
+      "ColumnOrder": 1,
+      "ZOrder": 0,
+      "IsPII": 0
+    },
+    {
+      "SourceColumnName": "title",
+      "DeltaColumnName": "title",
+      "DeltaDataType": "string",
+      "ColumnOrder": 2,
+      "ZOrder": 0,
+      "IsPII": 0
+    },
+    {
+      "SourceColumnName": "email",
+      "DeltaColumnName": "email",
+      "DeltaDataType": "string",
+      "ColumnOrder": 3,
+      "ZOrder": 0,
+      "IsPII": 0
+    },
+    {
+      "SourceColumnName": "name",
+      "DeltaColumnName": "name",
+      "DeltaDataType": "string",
+      "ColumnOrder": 4,
+      "ZOrder": 0,
+      "IsPII": 0
+    },
+    {
+      "SourceColumnName": "languageId",
+      "DeltaColumnName": "languageId",
+      "DeltaDataType": "string",
+      "ColumnOrder": 5,
+      "ZOrder": 0,
+      "IsPII": 0
+    },
+    {
+      "SourceColumnName": "languageUri",
+      "DeltaColumnName": "languageUri",
+      "DeltaDataType": "string",
+      "ColumnOrder": 6,
+      "ZOrder": 0,
+      "IsPII": 0
+    },
+    {
+      "SourceColumnName": "languageName",
+      "DeltaColumnName": "languageName",
+      "DeltaDataType": "string",
+      "ColumnOrder": 7,
+      "ZOrder": 0,
+      "IsPII": 0
+    },
+    {
+      "SourceColumnName": "languageProficiency",
+      "DeltaColumnName": "languageProficiency",
+      "DeltaDataType": "double",
+      "ColumnOrder": 8,
+      "ZOrder": 0,
+      "IsPII": 0
+    },
+    {
+      "SourceColumnName": "languageSelfUri",
+      "DeltaColumnName": "languageSelfUri",
+      "DeltaDataType": "string",
+      "ColumnOrder": 9,
+      "ZOrder": 0,
+      "IsPII": 0
+    },
+    {
+      "SourceColumnName": "languageState",
+      "DeltaColumnName": "languageState",
+      "DeltaDataType": "string",
+      "ColumnOrder": 10,
+      "ZOrder": 0,
+      "IsPII": 0
+    },
+    {
+      "SourceColumnName": "jabberId",
+      "DeltaColumnName": "jabberId",
+      "DeltaDataType": "string",
+      "ColumnOrder": 11,
+      "ZOrder": 0,
+      "IsPII": 0
+    },
+    {
+      "SourceColumnName": "divisionId",
+      "DeltaColumnName": "divisionId",
+      "DeltaDataType": "string",
+      "ColumnOrder": 12,
+      "ZOrder": 0,
+      "IsPII": 0
+    },
+    {
+      "SourceColumnName": "divisionName",
+      "DeltaColumnName": "divisionName",
+      "DeltaDataType": "string",
+      "ColumnOrder": 13,
+      "ZOrder": 0,
+      "IsPII": 0
+    },
+    {
+      "SourceColumnName": "divisionselfUri",
+      "DeltaColumnName": "divisionselfUri",
+      "DeltaDataType": "string",
+      "ColumnOrder": 14,
+      "ZOrder": 0,
+      "IsPII": 0
+    },
+    {
+      "SourceColumnName": "managerId",
+      "DeltaColumnName": "managerId",
+      "DeltaDataType": "string",
+      "ColumnOrder": 15,
+      "ZOrder": 0,
+      "IsPII": 0
+    },
+    {
+      "SourceColumnName": "address",
+      "DeltaColumnName": "address",
+      "DeltaDataType": "string",
+      "ColumnOrder": 16,
+      "ZOrder": 0,
+      "IsPII": 0
+    },
+    {
+      "SourceColumnName": "countryCode",
+      "DeltaColumnName": "countryCode",
+      "DeltaDataType": "string",
+      "ColumnOrder": 17,
+      "ZOrder": 0,
+      "IsPII": 0
+    },
+    {
+      "SourceColumnName": "display",
+      "DeltaColumnName": "display",
+      "DeltaDataType": "string",
+      "ColumnOrder": 18,
+      "ZOrder": 0,
+      "IsPII": 0
+    },
+    {
+      "SourceColumnName": "addressMediaType",
+      "DeltaColumnName": "addressMediaType",
+      "DeltaDataType": "string",
+      "ColumnOrder": 19,
+      "ZOrder": 0,
+      "IsPII": 0
+    },
+    {
+      "SourceColumnName": "addressType",
+      "DeltaColumnName": "addressType",
+      "DeltaDataType": "string",
+      "ColumnOrder": 20,
+      "ZOrder": 0,
+      "IsPII": 0
+    },
+    {
+      "SourceColumnName": "skillsId",
+      "DeltaColumnName": "skillsId",
+      "DeltaDataType": "string",
+      "ColumnOrder": 21,
+      "ZOrder": 0,
+      "IsPII": 0
+    },
+    {
+      "SourceColumnName": "skillsName",
+      "DeltaColumnName": "skillsName",
+      "DeltaDataType": "string",
+      "ColumnOrder": 22,
+      "ZOrder": 0,
+      "IsPII": 0
+    },
+    {
+      "SourceColumnName": "proficiency",
+      "DeltaColumnName": "proficiency",
+      "DeltaDataType": "double",
+      "ColumnOrder": 23,
+      "ZOrder": 0,
+      "IsPII": 0
+    },
+    {
+      "SourceColumnName": "skillsselfUri",
+      "DeltaColumnName": "skillsselfUri",
+      "DeltaDataType": "string",
+      "ColumnOrder": 24,
+      "ZOrder": 0,
+      "IsPII": 0
+    },
+    {
+      "SourceColumnName": "skillUri",
+      "DeltaColumnName": "skillUri",
+      "DeltaDataType": "string",
+      "ColumnOrder": 25,
+      "ZOrder": 0,
+      "IsPII": 0
+    },
+    {
+      "SourceColumnName": "skillsState",
+      "DeltaColumnName": "skillsState",
+      "DeltaDataType": "string",
+      "ColumnOrder": 26,
+      "ZOrder": 0,
+      "IsPII": 0
+    },
+    {
+      "SourceColumnName": "locationId",
+      "DeltaColumnName": "locationId",
+      "DeltaDataType": "string",
+      "ColumnOrder": 27,
+      "ZOrder": 0,
+      "IsPII": 0
+    },
+    {
+      "SourceColumnName": "locationNotes",
+      "DeltaColumnName": "locationNotes",
+      "DeltaDataType": "string",
+      "ColumnOrder": 28,
+      "ZOrder": 0,
+      "IsPII": 0
+    },
+    {
+      "SourceColumnName": "Updated_Date",
+      "DeltaColumnName": "Updated_Date",
+      "DeltaDataType": "timestamp",
+      "ColumnOrder": 29,
+      "ZOrder": 0,
+      "IsPII": 0
+    }
+  ],
+  "IsCurrent": 0
+}

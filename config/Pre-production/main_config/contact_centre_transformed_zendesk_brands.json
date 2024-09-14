@@ -1,0 +1,77 @@
+{
+    "HeaderID": 7,
+    "SourceContainer": "conf.raw",
+    "SourceFilePath": "formatted/zendesk/v2/brands/parquet/current",
+    "SourceFileFormat": "parquet",
+    "SourceFileHeader": 1,
+    "SourceFileDelimiter": "",
+    "DeltaTableSchema": "contact_centre_transformed",
+    "DeltaTableName": "zendesk_brands",
+    "IsPII": 0,
+    "PIISchema": "",
+    "PIITableName": "",
+    "OverWriteFlag": 0,
+    "BatchFileCount": 1,
+    "ContinuousRunFlag": 0,
+    "JobConfig": {
+        "Alert": 0,
+        "Emails": "",
+        "CronSyntax": "0 0 3 * * ?",
+        "WarningDuration": 7200,
+        "TimeOut": 21600,
+        "Retries": 3,
+        "ClusterMaxWorkers": 4,
+        "SparkConf": "{}"
+    },
+    "Columns": [
+        {
+            "SourceColumnName": "id",
+            "DeltaColumnName": "id",
+            "DeltaDataType": "bigint",
+            "ColumnOrder": 0,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "name",
+            "DeltaColumnName": "name",
+            "DeltaDataType": "string",
+            "ColumnOrder": 1,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "brand_url",
+            "DeltaColumnName": "brand_url",
+            "DeltaDataType": "string",
+            "ColumnOrder": 2,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "subdomain",
+            "DeltaColumnName": "subdomain",
+            "DeltaDataType": "string",
+            "ColumnOrder": 3,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "active",
+            "DeltaColumnName": "active",
+            "DeltaDataType": "boolean",
+            "ColumnOrder": 4,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "date_loaded",
+            "DeltaColumnName": "date_loaded",
+            "DeltaDataType": "date",
+            "ColumnOrder": 5,
+            "ZOrder": 0,
+            "IsPII": 0
+        }
+    ],
+    "IsCurrent": 1
+}

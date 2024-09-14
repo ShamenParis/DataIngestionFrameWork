@@ -1,0 +1,341 @@
+{
+    "HeaderID": 15,
+    "SourceContainer": "conf.raw",
+    "SourceFilePath": "formatted/genesys/v2/conversation_detail_data/parquet/current",
+    "SourceFileFormat": "parquet",
+    "SourceFileHeader": 1,
+    "SourceFileDelimiter": "",
+    "DeltaTableSchema": "contact_centre_pii_transformed",
+    "DeltaTableName": "genesys_conversation_detail_data",
+    "IsPII": 0,
+    "PIISchema": "",
+    "PIITableName": "",
+    "OverWriteFlag": 0,
+    "BatchFileCount": 1,
+    "ContinuousRunFlag": 0,
+    "JobConfig": {
+        "Alert": 0,
+        "Emails": "",
+        "CronSyntax": "0 0 3 * * ?",
+        "WarningDuration": 7200,
+        "TimeOut": 21600,
+        "Retries": 3,
+        "ClusterMaxWorkers": 4,
+        "SparkConf": "{}"
+    },
+    "Columns": [
+        {
+            "SourceColumnName": "conversationId",
+            "DeltaColumnName": "conversationId",
+            "DeltaDataType": "string",
+            "ColumnOrder": 0,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "conversationStart",
+            "DeltaColumnName": "conversationStart",
+            "DeltaDataType": "string",
+            "ColumnOrder": 1,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "conversationEnd",
+            "DeltaColumnName": "conversationEnd",
+            "DeltaDataType": "string",
+            "ColumnOrder": 2,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "divisionIds",
+            "DeltaColumnName": "divisionIds",
+            "DeltaDataType": "string",
+            "ColumnOrder": 3,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "originatingDirection",
+            "DeltaColumnName": "originatingDirection",
+            "DeltaDataType": "string",
+            "ColumnOrder": 4,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "participantId",
+            "DeltaColumnName": "participantId",
+            "DeltaDataType": "string",
+            "ColumnOrder": 5,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "participantName",
+            "DeltaColumnName": "participantName",
+            "DeltaDataType": "string",
+            "ColumnOrder": 6,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "purpose",
+            "DeltaColumnName": "purpose",
+            "DeltaDataType": "string",
+            "ColumnOrder": 7,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "userId",
+            "DeltaColumnName": "userId",
+            "DeltaDataType": "string",
+            "ColumnOrder": 8,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "direction",
+            "DeltaColumnName": "direction",
+            "DeltaDataType": "string",
+            "ColumnOrder": 9,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "mediaType",
+            "DeltaColumnName": "mediaType",
+            "DeltaDataType": "string",
+            "ColumnOrder": 10,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "provider",
+            "DeltaColumnName": "provider",
+            "DeltaDataType": "string",
+            "ColumnOrder": 11,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "sessionId",
+            "DeltaColumnName": "sessionId",
+            "DeltaDataType": "string",
+            "ColumnOrder": 12,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "dnis",
+            "DeltaColumnName": "dnis",
+            "DeltaDataType": "string",
+            "ColumnOrder": 13,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "entryType",
+            "DeltaColumnName": "entryType",
+            "DeltaDataType": "string",
+            "ColumnOrder": 14,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "entryReason",
+            "DeltaColumnName": "entryReason",
+            "DeltaDataType": "string",
+            "ColumnOrder": 15,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "flowId",
+            "DeltaColumnName": "flowId",
+            "DeltaDataType": "string",
+            "ColumnOrder": 16,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "flowName",
+            "DeltaColumnName": "flowName",
+            "DeltaDataType": "string",
+            "ColumnOrder": 17,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "flowType",
+            "DeltaColumnName": "flowType",
+            "DeltaDataType": "string",
+            "ColumnOrder": 18,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "startingLanguage",
+            "DeltaColumnName": "startingLanguage",
+            "DeltaDataType": "string",
+            "ColumnOrder": 19,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "endingLanguage",
+            "DeltaColumnName": "endingLanguage",
+            "DeltaDataType": "string",
+            "ColumnOrder": 20,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "exitReason",
+            "DeltaColumnName": "exitReason",
+            "DeltaDataType": "string",
+            "ColumnOrder": 21,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "selectedAgentId",
+            "DeltaColumnName": "selectedAgentId",
+            "DeltaDataType": "string",
+            "ColumnOrder": 22,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "transferTargetAddress",
+            "DeltaColumnName": "transferTargetAddress",
+            "DeltaDataType": "string",
+            "ColumnOrder": 23,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "transferTargetName",
+            "DeltaColumnName": "transferTargetName",
+            "DeltaDataType": "string",
+            "ColumnOrder": 24,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "transferType",
+            "DeltaColumnName": "transferType",
+            "DeltaDataType": "string",
+            "ColumnOrder": 25,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "flowInType",
+            "DeltaColumnName": "flowInType",
+            "DeltaDataType": "string",
+            "ColumnOrder": 26,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "remoteNameDisplayable",
+            "DeltaColumnName": "remoteNameDisplayable",
+            "DeltaDataType": "string",
+            "ColumnOrder": 27,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "addressTo",
+            "DeltaColumnName": "addressTo",
+            "DeltaDataType": "string",
+            "ColumnOrder": 28,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "name",
+            "DeltaColumnName": "name",
+            "DeltaDataType": "string",
+            "ColumnOrder": 29,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "value",
+            "DeltaColumnName": "value",
+            "DeltaDataType": "int",
+            "ColumnOrder": 30,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "conference",
+            "DeltaColumnName": "conference",
+            "DeltaDataType": "boolean",
+            "ColumnOrder": 31,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "queueId",
+            "DeltaColumnName": "queueId",
+            "DeltaDataType": "string",
+            "ColumnOrder": 32,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "segmentStart",
+            "DeltaColumnName": "segmentStart",
+            "DeltaDataType": "string",
+            "ColumnOrder": 33,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "segmentType",
+            "DeltaColumnName": "segmentType",
+            "DeltaDataType": "string",
+            "ColumnOrder": 34,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "segmentEnd",
+            "DeltaColumnName": "segmentEnd",
+            "DeltaDataType": "string",
+            "ColumnOrder": 35,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "disconnectType",
+            "DeltaColumnName": "disconnectType",
+            "DeltaDataType": "string",
+            "ColumnOrder": 36,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "subject",
+            "DeltaColumnName": "subject",
+            "DeltaDataType": "string",
+            "ColumnOrder": 37,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "Updated_Date",
+            "DeltaColumnName": "Updated_Date",
+            "DeltaDataType": "timestamp",
+            "ColumnOrder": 38,
+            "ZOrder": 0,
+            "IsPII": 0
+        }
+    ],
+    "IsCurrent": 0
+}

@@ -1,0 +1,69 @@
+{
+    "HeaderID": 9,
+    "SourceContainer": "conf.raw",
+    "SourceFilePath": "formatted/genesys/v2/queues_divisionviews_data/parquet/current",
+    "SourceFileFormat": "parquet",
+    "SourceFileHeader": 1,
+    "SourceFileDelimiter": "",
+    "DeltaTableSchema": "contact_centre_transformed",
+    "DeltaTableName": "genesys_queues_divisionviews_data",
+    "IsPII": 0,
+    "PIISchema": "",
+    "PIITableName": "",
+    "OverWriteFlag": 0,
+    "BatchFileCount": 1,
+    "ContinuousRunFlag": 0,
+    "JobConfig": {
+        "Alert": 1,
+        "Emails": "asiri_piyumantha@next.co.uk,leon_isaac@next.co.uk,malith_dharmasiri@next.co.uk,randunu_galhena@next.co.uk,rimzan_deen@next.co.uk,sawishka_chamikara@next.co.uk,supun_fernando@next.co.uk,virajinie_prasangika@next.co.uk,sumaiya_ilmutheen@next.co.uk,prasad_weerasekara@next.co.uk",
+        "CronSyntax": "0 0 3 * * ?",
+        "WarningDuration": 7200,
+        "TimeOut": 21600,
+        "Retries": 3,
+        "ClusterMaxWorkers": 4,
+        "SparkConf": "{}"
+    },
+    "Columns": [
+        {
+            "SourceColumnName": "queue_id",
+            "DeltaColumnName": "queue_id",
+            "DeltaDataType": "string",
+            "ColumnOrder": 0,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "queue_name",
+            "DeltaColumnName": "queue_name",
+            "DeltaDataType": "string",
+            "ColumnOrder": 1,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "division_id",
+            "DeltaColumnName": "division_id",
+            "DeltaDataType": "string",
+            "ColumnOrder": 2,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "division_name",
+            "DeltaColumnName": "division_name",
+            "DeltaDataType": "string",
+            "ColumnOrder": 3,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "Updated_Date",
+            "DeltaColumnName": "Updated_Date",
+            "DeltaDataType": "timestamp",
+            "ColumnOrder": 4,
+            "ZOrder": 0,
+            "IsPII": 0
+        }
+    ],
+    "IsCurrent": 1
+}

@@ -1,0 +1,61 @@
+{
+  "HeaderID": 1000000002,
+  "SourceContainer": "conf.raw",
+  "SourceFilePath": "formatted/auto_loader/csv",
+  "SourceFileFormat": "csv",
+  "SourceFileHeader": 1,
+  "SourceFileDelimiter": ",",
+  "DeltaTableSchema": "default",
+  "DeltaTableName": "al_csv_test",
+  "IsPII": 0,
+  "PIISchema": "",
+  "PIITableName": "",
+  "OverWriteFlag": 1,
+  "BatchFileCount": 1,
+  "ContinuousRunFlag": 0,
+  "JobConfig": {
+    "Alert": 0,
+    "Emails": "",
+    "CronSyntax": "0 0 3 * * ?",
+    "WarningDuration": 600,
+    "TimeOut": 1200,
+    "Retries": 2,
+    "ClusterMaxWorkers": 2,
+    "SparkConf": "{}"
+  },
+  "Columns": [
+    {
+      "SourceColumnName": "Id",
+      "DeltaColumnName": "Id",
+      "DeltaDataType": "int",
+      "ColumnOrder": 0,
+      "ZOrder": 0,
+      "IsPII": 0
+    },
+    {
+      "SourceColumnName": "Item",
+      "DeltaColumnName": "Item",
+      "DeltaDataType": "string",
+      "ColumnOrder": 1,
+      "ZOrder": 0,
+      "IsPII": 0
+    },
+    {
+      "SourceColumnName": "Date",
+      "DeltaColumnName": "Date",
+      "DeltaDataType": "date",
+      "ColumnOrder": 2,
+      "ZOrder": 0,
+      "IsPII": 0
+    },
+    {
+      "SourceColumnName": "Value",
+      "DeltaColumnName": "Value",
+      "DeltaDataType": "decimal(10,2)",
+      "ColumnOrder": 3,
+      "ZOrder": 0,
+      "IsPII": 0
+    }
+  ],
+  "IsCurrent": 0
+}

@@ -1,0 +1,141 @@
+{
+    "HeaderID": 5,
+    "SourceContainer": "conf.raw",
+    "SourceFilePath": "formatted/genesys/v2/conversation_aggregate_data/parquet/current",
+    "SourceFileFormat": "parquet",
+    "SourceFileHeader": 1,
+    "SourceFileDelimiter": "",
+    "DeltaTableSchema": "contact_centre_transformed",
+    "DeltaTableName": "genesys_conversation_aggregate_data",
+    "IsPII": 0,
+    "PIISchema": "",
+    "PIITableName": "",
+    "OverWriteFlag": 0,
+    "BatchFileCount": 1,
+    "ContinuousRunFlag": 0,
+    "JobConfig": {
+        "Alert": 0,
+        "Emails": "",
+        "CronSyntax": "0 0 3 * * ?",
+        "WarningDuration": 10800,
+        "TimeOut": 21600,
+        "Retries": 3,
+        "ClusterMaxWorkers": 4,
+        "SparkConf": "{}"
+    },
+    "Columns": [
+        {
+            "SourceColumnName": "conversationId",
+            "DeltaColumnName": "conversationId",
+            "DeltaDataType": "string",
+            "ColumnOrder": 0,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "direction",
+            "DeltaColumnName": "direction",
+            "DeltaDataType": "string",
+            "ColumnOrder": 1,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "mediaType",
+            "DeltaColumnName": "mediaType",
+            "DeltaDataType": "string",
+            "ColumnOrder": 2,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "queueId",
+            "DeltaColumnName": "queueId",
+            "DeltaDataType": "string",
+            "ColumnOrder": 3,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "userId",
+            "DeltaColumnName": "userId",
+            "DeltaDataType": "string",
+            "ColumnOrder": 4,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "wrapUpCode",
+            "DeltaColumnName": "wrapUpCode",
+            "DeltaDataType": "string",
+            "ColumnOrder": 5,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "metric",
+            "DeltaColumnName": "metric",
+            "DeltaDataType": "string",
+            "ColumnOrder": 6,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "count",
+            "DeltaColumnName": "count",
+            "DeltaDataType": "smallint",
+            "ColumnOrder": 7,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "sum",
+            "DeltaColumnName": "sum",
+            "DeltaDataType": "int",
+            "ColumnOrder": 8,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "current",
+            "DeltaColumnName": "current",
+            "DeltaDataType": "double",
+            "ColumnOrder": 9,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "ratio",
+            "DeltaColumnName": "ratio",
+            "DeltaDataType": "double",
+            "ColumnOrder": 10,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "interval",
+            "DeltaColumnName": "interval",
+            "DeltaDataType": "string",
+            "ColumnOrder": 11,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "start_interval",
+            "DeltaColumnName": "start_interval",
+            "DeltaDataType": "string",
+            "ColumnOrder": 12,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "end_interval",
+            "DeltaColumnName": "end_interval",
+            "DeltaDataType": "string",
+            "ColumnOrder": 13,
+            "ZOrder": 0,
+            "IsPII": 0
+        }
+    ],
+    "IsCurrent": 1
+}

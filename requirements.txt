@@ -1,0 +1,4 @@
+-i https://pypi.org/simple
+httplib2
+databricks-sdk
+imgix

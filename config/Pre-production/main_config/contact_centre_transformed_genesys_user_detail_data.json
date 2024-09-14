@@ -1,0 +1,93 @@
+{
+    "HeaderID": 4,
+    "SourceContainer": "conf.raw",
+    "SourceFilePath": "formatted/genesys/v2/user_detail_data/parquet/current",
+    "SourceFileFormat": "parquet",
+    "SourceFileHeader": 1,
+    "SourceFileDelimiter": "",
+    "DeltaTableSchema": "contact_centre_transformed",
+    "DeltaTableName": "genesys_user_detail_data",
+    "IsPII": 0,
+    "PIISchema": "",
+    "PIITableName": "",
+    "OverWriteFlag": 0,
+    "BatchFileCount": 1,
+    "ContinuousRunFlag": 0,
+    "JobConfig": {
+        "Alert": 0,
+        "Emails": "",
+        "CronSyntax": "0 0 3 * * ?",
+        "WarningDuration": 9000,
+        "TimeOut": 21600,
+        "Retries": 3,
+        "ClusterMaxWorkers": 4,
+        "SparkConf": "{}"
+    },
+    "Columns": [
+        {
+            "SourceColumnName": "UserId",
+            "DeltaColumnName": "UserId",
+            "DeltaDataType": "string",
+            "ColumnOrder": 0,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "organizationPresenceId",
+            "DeltaColumnName": "organizationPresenceId",
+            "DeltaDataType": "string",
+            "ColumnOrder": 1,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "State",
+            "DeltaColumnName": "State",
+            "DeltaDataType": "string",
+            "ColumnOrder": 2,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "Start_Date",
+            "DeltaColumnName": "Start_Date",
+            "DeltaDataType": "string",
+            "ColumnOrder": 3,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "Start_Time",
+            "DeltaColumnName": "Start_Time",
+            "DeltaDataType": "string",
+            "ColumnOrder": 4,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "End_Date",
+            "DeltaColumnName": "End_Date",
+            "DeltaDataType": "string",
+            "ColumnOrder": 5,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "End_Time",
+            "DeltaColumnName": "End_Time",
+            "DeltaDataType": "string",
+            "ColumnOrder": 6,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "Updated_Date",
+            "DeltaColumnName": "Updated_Date",
+            "DeltaDataType": "timestamp",
+            "ColumnOrder": 7,
+            "ZOrder": 0,
+            "IsPII": 0
+        }
+    ],
+    "IsCurrent": 1
+}

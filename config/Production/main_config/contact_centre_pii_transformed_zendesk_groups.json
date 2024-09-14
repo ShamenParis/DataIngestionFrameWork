@@ -1,0 +1,77 @@
+{
+  "HeaderID": 1,
+  "SourceContainer": "conf.raw",
+  "SourceFilePath": "formatted/zendesk/v2/groups/parquet/current",
+  "SourceFileFormat": "parquet",
+  "SourceFileHeader": 1,
+  "SourceFileDelimiter": "",
+  "DeltaTableSchema": "contact_centre_pii_transformed",
+  "DeltaTableName": "zendesk_groups",
+  "IsPII": 0,
+  "PIISchema": "",
+  "PIITableName": "",
+  "OverWriteFlag": 0,
+  "BatchFileCount": 1,
+  "ContinuousRunFlag": 0,
+  "JobConfig": {
+    "Alert": 1,
+    "Emails": "asiri_piyumantha@next.co.uk,leon_isaac@next.co.uk,malith_dharmasiri@next.co.uk,randunu_galhena@next.co.uk,rimzan_deen@next.co.uk,sawishka_chamikara@next.co.uk,supun_fernando@next.co.uk,virajinie_prasangika@next.co.uk,sumaiya_ilmutheen@next.co.uk,prasad_weerasekara@next.co.uk",
+    "CronSyntax": "0 0 3 * * ?",
+    "WarningDuration": 9000,
+    "TimeOut": 21600,
+    "Retries": 3,
+    "ClusterMaxWorkers": 4,
+    "SparkConf": "{}"
+  },
+  "Columns": [
+    {
+      "SourceColumnName": "id",
+      "DeltaColumnName": "id",
+      "DeltaDataType": "bigint",
+      "ColumnOrder": 0,
+      "ZOrder": 0,
+      "IsPII": 0
+    },
+    {
+      "SourceColumnName": "name",
+      "DeltaColumnName": "name",
+      "DeltaDataType": "string",
+      "ColumnOrder": 1,
+      "ZOrder": 0,
+      "IsPII": 0
+    },
+    {
+      "SourceColumnName": "created_at",
+      "DeltaColumnName": "created_at",
+      "DeltaDataType": "timestamp",
+      "ColumnOrder": 2,
+      "ZOrder": 0,
+      "IsPII": 0
+    },
+    {
+      "SourceColumnName": "updated_at",
+      "DeltaColumnName": "updated_at",
+      "DeltaDataType": "timestamp",
+      "ColumnOrder": 3,
+      "ZOrder": 0,
+      "IsPII": 0
+    },
+    {
+      "SourceColumnName": "url",
+      "DeltaColumnName": "url",
+      "DeltaDataType": "string",
+      "ColumnOrder": 4,
+      "ZOrder": 0,
+      "IsPII": 0
+    },
+    {
+      "SourceColumnName": "description",
+      "DeltaColumnName": "description",
+      "DeltaDataType": "string",
+      "ColumnOrder": 5,
+      "ZOrder": 0,
+      "IsPII": 0
+    }
+  ],
+  "IsCurrent": 1
+}

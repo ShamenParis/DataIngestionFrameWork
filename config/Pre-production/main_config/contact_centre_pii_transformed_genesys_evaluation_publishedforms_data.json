@@ -1,0 +1,213 @@
+{
+    "HeaderID": 13,
+    "SourceContainer": "conf.raw",
+    "SourceFilePath": "formatted/genesys/v2/evaluation_publishedforms_data/parquet/current",
+    "SourceFileFormat": "parquet",
+    "SourceFileHeader": 1,
+    "SourceFileDelimiter": "",
+    "DeltaTableSchema": "contact_centre_pii_transformed",
+    "DeltaTableName": "genesys_evaluation_publishedforms_data",
+    "IsPII": 0,
+    "PIISchema": "",
+    "PIITableName": "",
+    "OverWriteFlag": 0,
+    "BatchFileCount": 1,
+    "ContinuousRunFlag": 0,
+    "JobConfig": {
+        "Alert": 0,
+        "Emails": "",
+        "CronSyntax": "0 0 3 * * ?",
+        "WarningDuration": 10800,
+        "TimeOut": 21600,
+        "Retries": 3,
+        "ClusterMaxWorkers": 4,
+        "SparkConf": "{}"
+    },
+    "Columns": [
+        {
+            "SourceColumnName": "evaluations_id",
+            "DeltaColumnName": "evaluations_id",
+            "DeltaDataType": "string",
+            "ColumnOrder": 0,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "evaluations_name",
+            "DeltaColumnName": "evaluations_name",
+            "DeltaDataType": "string",
+            "ColumnOrder": 1,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "modifiedDate",
+            "DeltaColumnName": "modifiedDate",
+            "DeltaDataType": "string",
+            "ColumnOrder": 2,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "published",
+            "DeltaColumnName": "published",
+            "DeltaDataType": "boolean",
+            "ColumnOrder": 3,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "contextId",
+            "DeltaColumnName": "contextId",
+            "DeltaDataType": "string",
+            "ColumnOrder": 4,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "id",
+            "DeltaColumnName": "id",
+            "DeltaDataType": "string",
+            "ColumnOrder": 5,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "name",
+            "DeltaColumnName": "name",
+            "DeltaDataType": "string",
+            "ColumnOrder": 6,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "type",
+            "DeltaColumnName": "type",
+            "DeltaDataType": "string",
+            "ColumnOrder": 7,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "defaultAnswersToHighest",
+            "DeltaColumnName": "defaultAnswersToHighest",
+            "DeltaDataType": "boolean",
+            "ColumnOrder": 8,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "defaultAnswersToNA",
+            "DeltaColumnName": "defaultAnswersToNA",
+            "DeltaDataType": "boolean",
+            "ColumnOrder": 9,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "naEnabled",
+            "DeltaColumnName": "naEnabled",
+            "DeltaDataType": "boolean",
+            "ColumnOrder": 10,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "weight",
+            "DeltaColumnName": "weight",
+            "DeltaDataType": "double",
+            "ColumnOrder": 11,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "manualWeight",
+            "DeltaColumnName": "manualWeight",
+            "DeltaDataType": "boolean",
+            "ColumnOrder": 12,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "questions_id",
+            "DeltaColumnName": "questions_id",
+            "DeltaDataType": "string",
+            "ColumnOrder": 13,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "text",
+            "DeltaColumnName": "text",
+            "DeltaDataType": "string",
+            "ColumnOrder": 14,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "helpText",
+            "DeltaColumnName": "helpText",
+            "DeltaDataType": "string",
+            "ColumnOrder": 15,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "_type",
+            "DeltaColumnName": "_type",
+            "DeltaDataType": "string",
+            "ColumnOrder": 16,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "_naEnabled",
+            "DeltaColumnName": "_naEnabled",
+            "DeltaDataType": "boolean",
+            "ColumnOrder": 17,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "commentsRequired",
+            "DeltaColumnName": "commentsRequired",
+            "DeltaDataType": "boolean",
+            "ColumnOrder": 18,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "answerOptions_id",
+            "DeltaColumnName": "answerOptions_id",
+            "DeltaDataType": "string",
+            "ColumnOrder": 19,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "answerOptions_text",
+            "DeltaColumnName": "answerOptions_text",
+            "DeltaDataType": "string",
+            "ColumnOrder": 20,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "value",
+            "DeltaColumnName": "value",
+            "DeltaDataType": "smallint",
+            "ColumnOrder": 21,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "Updated_Date",
+            "DeltaColumnName": "Updated_Date",
+            "DeltaDataType": "timestamp",
+            "ColumnOrder": 22,
+            "ZOrder": 0,
+            "IsPII": 0
+        }
+    ],
+    "IsCurrent": 1
+}

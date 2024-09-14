@@ -1,0 +1,165 @@
+{
+    "HeaderID": 14,
+    "SourceContainer": "conf.raw",
+    "SourceFilePath": "formatted/zendesk/v2/users/parquet/current",
+    "SourceFileFormat": "parquet",
+    "SourceFileHeader": 1,
+    "SourceFileDelimiter": "",
+    "DeltaTableSchema": "contact_centre_pii_transformed",
+    "DeltaTableName": "zendesk_users",
+    "IsPII": 0,
+    "PIISchema": "",
+    "PIITableName": "",
+    "OverWriteFlag": 0,
+    "BatchFileCount": 1,
+    "ContinuousRunFlag": 0,
+    "JobConfig": {
+        "Alert": 1,
+        "Emails": "asiri_piyumantha@next.co.uk,leon_isaac@next.co.uk,malith_dharmasiri@next.co.uk,randunu_galhena@next.co.uk,rimzan_deen@next.co.uk,sawishka_chamikara@next.co.uk,supun_fernando@next.co.uk,virajinie_prasangika@next.co.uk,sumaiya_ilmutheen@next.co.uk,prasad_weerasekara@next.co.uk",
+        "CronSyntax": "0 0 3 * * ?",
+        "WarningDuration": 9000,
+        "TimeOut": 21600,
+        "Retries": 3,
+        "ClusterMaxWorkers": 4,
+        "SparkConf": "{}"
+    },
+    "Columns": [
+        {
+            "SourceColumnName": "id",
+            "DeltaColumnName": "id",
+            "DeltaDataType": "bigint",
+            "ColumnOrder": 0,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "name",
+            "DeltaColumnName": "name",
+            "DeltaDataType": "string",
+            "ColumnOrder": 1,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "email",
+            "DeltaColumnName": "email",
+            "DeltaDataType": "string",
+            "ColumnOrder": 2,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "created_at",
+            "DeltaColumnName": "created_at",
+            "DeltaDataType": "timestamp",
+            "ColumnOrder": 3,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "updated_at",
+            "DeltaColumnName": "updated_at",
+            "DeltaDataType": "timestamp",
+            "ColumnOrder": 4,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "time_zone",
+            "DeltaColumnName": "time_zone",
+            "DeltaDataType": "string",
+            "ColumnOrder": 5,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "locale_id",
+            "DeltaColumnName": "locale_id",
+            "DeltaDataType": "smallint",
+            "ColumnOrder": 6,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "locale",
+            "DeltaColumnName": "locale",
+            "DeltaDataType": "string",
+            "ColumnOrder": 7,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "organization_id",
+            "DeltaColumnName": "organization_id",
+            "DeltaDataType": "bigint",
+            "ColumnOrder": 8,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "role",
+            "DeltaColumnName": "role",
+            "DeltaDataType": "string",
+            "ColumnOrder": 9,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "external_id",
+            "DeltaColumnName": "external_id",
+            "DeltaDataType": "string",
+            "ColumnOrder": 10,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "shared",
+            "DeltaColumnName": "shared",
+            "DeltaDataType": "boolean",
+            "ColumnOrder": 11,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "shared_agent",
+            "DeltaColumnName": "shared_agent",
+            "DeltaDataType": "boolean",
+            "ColumnOrder": 12,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "last_login_at",
+            "DeltaColumnName": "last_login_at",
+            "DeltaDataType": "timestamp",
+            "ColumnOrder": 13,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "custom_role_id",
+            "DeltaColumnName": "custom_role_id",
+            "DeltaDataType": "bigint",
+            "ColumnOrder": 14,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "default_group_id",
+            "DeltaColumnName": "default_group_id",
+            "DeltaDataType": "bigint",
+            "ColumnOrder": 15,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "Updated_Date",
+            "DeltaColumnName": "Updated_Date",
+            "DeltaDataType": "timestamp",
+            "ColumnOrder": 16,
+            "ZOrder": 0,
+            "IsPII": 0
+        }
+    ],
+    "IsCurrent": 1
+}

@@ -1,0 +1,142 @@
+{
+    "type": "object",
+    "properties": {
+        "HeaderID": {
+            "type": "integer"
+        },
+        "SourceContainer": {
+            "type": "string"
+        },
+        "SourceFilePath": {
+            "type": "string"
+        },
+        "SourceFileFormat": {
+            "type": "string"
+        },
+        "SourceFileHeader": {
+            "type": "integer"
+        },
+        "SourceFileDelimiter":{
+            "type": "string"
+        },
+        "DeltaTableSchema": {
+            "type": "string"
+        },
+        "DeltaTableName": {
+            "type": "string"
+        },
+        "IsPII": {
+            "type": "integer"
+        },
+        "PIISchema": {
+            "type": "string"
+        },
+        "PIITableName": {
+            "type": "string"
+        },
+        "OverWriteFlag": {
+            "type": "integer"
+        },
+        "BatchFileCount": {
+            "type": "integer"
+        },
+        "ContinuousRunFlag": {
+            "type": "integer"
+        },
+        "JobConfig": {
+            "type": "object",
+            "properties": {
+                "Alert": {
+                    "type": "integer"
+                },
+                "Emails": {
+                    "type": "string"
+                },
+                "CronSyntax": {
+                    "type": "string"
+                },
+                "WarningDuration": {
+                    "type": "integer"
+                },
+                "TimeOut": {
+                    "type": "integer"
+                },
+                "Retries": {
+                    "type": "integer"
+                },
+                "ClusterMaxWorkers": {
+                    "type": "integer"
+                },
+                "SparkConf": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "Alert",
+                "Emails",
+                "CronSyntax",
+                "WarningDuration",
+                "TimeOut",
+                "Retries",
+                "ClusterMaxWorkers",
+                "SparkConf"
+            ]
+        },
+        "Columns": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "SourceColumnName": {
+                        "type": "string"
+                    },
+                    "DeltaColumnName": {
+                        "type": "string"
+                    },
+                    "DeltaDataType": {
+                        "type": "string"
+                    },
+                    "ColumnOrder": {
+                        "type": "integer"
+                    },
+                    "ZOrder": {
+                        "type": "integer"
+                    },
+                    "IsPII": {
+                        "type": "integer"
+                    }
+                },
+                "required": [
+                    "SourceColumnName",
+                    "DeltaColumnName",
+                    "DeltaDataType",
+                    "ColumnOrder",
+                    "ZOrder",
+                    "IsPII"
+                ]
+            }
+        },
+        "IsCurrent": {
+            "type": "integer"
+        }
+    },
+    "required": [
+        "HeaderID",
+        "SourceContainer",
+        "SourceFilePath",
+        "SourceFileFormat",
+        "SourceFileHeader",
+        "SourceFileDelimiter",
+        "DeltaTableSchema",
+        "DeltaTableName",
+        "IsPII",
+        "PIISchema",
+        "PIITableName",
+        "OverWriteFlag",
+        "BatchFileCount",
+        "ContinuousRunFlag",
+        "JobConfig",
+        "Columns",
+        "IsCurrent"
+    ]
+}

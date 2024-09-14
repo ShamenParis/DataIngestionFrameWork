@@ -1,0 +1,85 @@
+{
+    "HeaderID": 17,
+    "SourceContainer": "conf.raw",
+    "SourceFilePath": "original/nmon/",
+    "SourceFileFormat": "parquet",
+    "SourceFileHeader": 1,
+    "SourceFileDelimiter": "",
+    "DeltaTableSchema": "bismerged",
+    "DeltaTableName": "nmon_onlinedemand",
+    "IsPII": 0,
+    "PIISchema": "",
+    "PIITableName": "",
+    "OverWriteFlag": 0,
+    "BatchFileCount": 25,
+    "ContinuousRunFlag": 1,
+    "JobConfig": {
+        "Alert": 0,
+        "Emails": "",
+        "CronSyntax": "0 0 7 * * ?",
+        "WarningDuration": 50000,
+        "TimeOut": 50400,
+        "Retries": 3,
+        "ClusterMaxWorkers": 4,
+        "SparkConf": "{}"
+    },
+    "Columns": [
+        {
+            "SourceColumnName": "TransDate",
+            "DeltaColumnName": "Transdate",
+            "DeltaDataType": "TIMESTAMP",
+            "ColumnOrder": 0,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "TimeSlot",
+            "DeltaColumnName": "TimeSlot",
+            "DeltaDataType": "LONG",
+            "ColumnOrder": 1,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "ClientId",
+            "DeltaColumnName": "ClientId",
+            "DeltaDataType": "STRING",
+            "ColumnOrder": 2,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "OrderQuantity",
+            "DeltaColumnName": "OrderQuantity",
+            "DeltaDataType": "LONG",
+            "ColumnOrder": 3,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "OrderValue",
+            "DeltaColumnName": "OrderValue",
+            "DeltaDataType": "DOUBLE",
+            "ColumnOrder": 4,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "NumberOfOrders",
+            "DeltaColumnName": "NumberOfOrders",
+            "DeltaDataType": "LONG",
+            "ColumnOrder": 5,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "NumberOfItems",
+            "DeltaColumnName": "NumberOfItems",
+            "DeltaDataType": "LONG",
+            "ColumnOrder": 6,
+            "ZOrder": 0,
+            "IsPII": 0
+        }
+    ],
+    "IsCurrent": 0
+}

@@ -1,0 +1,181 @@
+{
+    "HeaderID": 3,
+    "SourceContainer": "conf.raw",
+    "SourceFilePath": "formatted/zendesk/v2/ticket_data/parquet/current",
+    "SourceFileFormat": "parquet",
+    "SourceFileHeader": 1,
+    "SourceFileDelimiter": "",
+    "DeltaTableSchema": "contact_centre_transformed",
+    "DeltaTableName": "zendesk_ticket_data",
+    "IsPII": 0,
+    "PIISchema": "",
+    "PIITableName": "",
+    "OverWriteFlag": 0,
+    "BatchFileCount": 1,
+    "ContinuousRunFlag": 0,
+    "JobConfig": {
+        "Alert": 1,
+        "Emails": "asiri_piyumantha@next.co.uk,leon_isaac@next.co.uk,malith_dharmasiri@next.co.uk,randunu_galhena@next.co.uk,rimzan_deen@next.co.uk,sawishka_chamikara@next.co.uk,supun_fernando@next.co.uk,virajinie_prasangika@next.co.uk,sumaiya_ilmutheen@next.co.uk,prasad_weerasekara@next.co.uk",
+        "CronSyntax": "0 0 3 * * ?",
+        "WarningDuration": 9000,
+        "TimeOut": 21600,
+        "Retries": 3,
+        "ClusterMaxWorkers": 4,
+        "SparkConf": "{}"
+    },
+    "Columns": [
+        {
+            "SourceColumnName": "id",
+            "DeltaColumnName": "id",
+            "DeltaDataType": "int",
+            "ColumnOrder": 0,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "created_at",
+            "DeltaColumnName": "created_at",
+            "DeltaDataType": "string",
+            "ColumnOrder": 1,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "updated_at",
+            "DeltaColumnName": "updated_at",
+            "DeltaDataType": "string",
+            "ColumnOrder": 2,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "channel",
+            "DeltaColumnName": "channel",
+            "DeltaDataType": "string",
+            "ColumnOrder": 3,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "from_name",
+            "DeltaColumnName": "from_name",
+            "DeltaDataType": "string",
+            "ColumnOrder": 4,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "to_address",
+            "DeltaColumnName": "to_address",
+            "DeltaDataType": "string",
+            "ColumnOrder": 5,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "to_name",
+            "DeltaColumnName": "to_name",
+            "DeltaDataType": "string",
+            "ColumnOrder": 6,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "rel",
+            "DeltaColumnName": "rel",
+            "DeltaDataType": "string",
+            "ColumnOrder": 7,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "brand",
+            "DeltaColumnName": "brand",
+            "DeltaDataType": "bigint",
+            "ColumnOrder": 8,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "requester",
+            "DeltaColumnName": "requester",
+            "DeltaDataType": "bigint",
+            "ColumnOrder": 9,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "group",
+            "DeltaColumnName": "group",
+            "DeltaDataType": "bigint",
+            "ColumnOrder": 10,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "assignee",
+            "DeltaColumnName": "assignee",
+            "DeltaDataType": "bigint",
+            "ColumnOrder": 11,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "priority",
+            "DeltaColumnName": "priority",
+            "DeltaDataType": "string",
+            "ColumnOrder": 12,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "type",
+            "DeltaColumnName": "type",
+            "DeltaDataType": "string",
+            "ColumnOrder": 13,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "subject",
+            "DeltaColumnName": "subject",
+            "DeltaDataType": "string",
+            "ColumnOrder": 14,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "status",
+            "DeltaColumnName": "status",
+            "DeltaDataType": "string",
+            "ColumnOrder": 15,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "tags",
+            "DeltaColumnName": "tags",
+            "DeltaDataType": "string",
+            "ColumnOrder": 16,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "ticket_fields_id",
+            "DeltaColumnName": "ticket_fields_id",
+            "DeltaDataType": "bigint",
+            "ColumnOrder": 17,
+            "ZOrder": 0,
+            "IsPII": 0
+        },
+        {
+            "SourceColumnName": "ticket_fields_value",
+            "DeltaColumnName": "ticket_fields_value",
+            "DeltaDataType": "string",
+            "ColumnOrder": 18,
+            "ZOrder": 0,
+            "IsPII": 0
+        }
+    ],
+    "IsCurrent": 1
+}
